@@ -1,0 +1,24 @@
+{
+  "name": "curso-js-op",
+  "version": "1.0.0",
+  "description": "curso_js",
+  "main": "index.js",
+  "scripts": {
+    "saludar": "node saludar.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisnavedag/Curso-JS-OP.git"
+  },
+  "keywords": [
+    "curso",
+    "js"
+  ],
+  "author": "Luis Naveda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisnavedag/Curso-JS-OP/issues"
+  },
+  "homepage": "https://github.com/luisnavedag/Curso-JS-OP#readme"
+}
