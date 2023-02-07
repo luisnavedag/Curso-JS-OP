@@ -1,9 +1,9 @@
-let altura = parseInt(171)
-let alturaEnMetros = parseFloat(1.71)
-let pesoEnKg = parseFloat(75.3)
-let alturaRound = alturaEnMetros.toPrecision(1)
-let pesoRound = pesoEnKg.toPrecision(2)
-let mayorNumJs = "el máximo valor que se puede obtener en Javascript + 1 " + "=" + " " + Number.MAX_VALUE
+let altura = 171
+let alturaEnMetros = 1.71
+let pesoEnKg = 75.3
+let alturaRound = Math.ceil(alturaEnMetros)
+let pesoRound = Math.floor(pesoEnKg)
+let mayorNumJs = Number.MAX_VALUE + 1 === Number.MAX_VALUE
 
 
 console.log(altura)
